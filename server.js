@@ -10,8 +10,8 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    // origin: "https://websocket-frontend-mauve.vercel.app", // React app URL
-    origin: "http://localhost:5173", // React app URL
+    origin: "https://chat-app-amjm.vercel.app/", // React app URL
+    // origin: "http://localhost:5173", // React app URL
     methods: ["GET", "POST"],
   },
 });
